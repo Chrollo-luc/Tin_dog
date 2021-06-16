@@ -1,0 +1,216 @@
+body{
+  font-family:"Ubuntu";
+}
+#lll:hover{
+  color: red;
+}
+#title{
+  background-color: #af7ac5;
+  color:#ffffff;
+}
+.container-flued{
+  padding: 3% 15% 7.5%;
+
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: Montserrat;
+  font-size: 2.2rem;
+}
+h3{
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
+/* The navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 16px 0;
+  font-size: 1.1rem;
+}
+
+.download_buttons{
+  margin: 5% 3% 5% 0;
+}
+
+.dogphonimg{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 28%;
+}
+/* The Features */
+
+#features{
+  background-color: #fff;
+  position: relative;
+}
+
+.fs1box{
+  text-align: center;
+  padding: 6%;
+}
+#features{
+  padding: 7% 15%;
+
+}
+.h3oficons{
+  font-family: Montserrat;
+  font-size: 1.2rem;
+}
+
+.fas{
+  margin-left: 10%;
+  margin-bottom: 20px;
+  color:#c39bd3;
+}
+
+.fas:hover{
+  color:#e74c3c;
+}
+
+.fab:hover{
+  color:#85c1e9;
+}
+
+.fas1{
+  margin:auto;
+  padding-bottom: 1rem;
+}
+
+.fas2{
+  margin:auto;
+  padding-bottom: 1rem;
+}
+
+.fas3{
+  margin:auto;
+  padding-bottom: 1rem;
+}
+
+.poficon{
+  text-align: center;
+  padding-bottom: 2.5rem;
+  color:#d0d3d4;
+}
+
+.poficon:hover{
+  color:#212f3d;
+}
+/* The testimonials */
+
+#testimonials{
+
+  background-color: #c39bd3;
+  text-align: center;
+}
+
+.h2oftestis{
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.5;
+}
+
+.dogphotoftest{
+  width: 15%;
+  border-radius: 100%;
+  margin: 21px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* The Press */
+#press{
+  background-color:#c39bd3;
+  text-align: center;
+  padding-bottom: 27px;
+}
+
+.thepressimgs{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.card-header{
+  text-align: center;
+}
+.card-body{
+  padding-bottom: 4%;
+  text-align: center;
+}
+.thepricing{
+  padding: 3%;
+}
+
+.pricing-button{
+  padding-bottom: 3%;
+}
+
+/* The call action  */
+
+#cta{
+  background-color: #af7ac5;
+  text-align: center;
+  line-height: 1.5;
+  padding: 3.5rem;
+}
+
+.theacth3{
+  width: 50rem;
+  text-align: center;
+  margin: 3rem auto;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.theactbutton{
+  margin: 0.5rem;
+}
+
+/* The footer */
+
+#footer{
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: center;
+
+}
+.footericon{
+  margin: 1.4% 1.7%;
+}
+/* the @media query responsive */
+
+@media(max-width:992px) {
+  #title{
+    text-align: center;
+  }
+  .dogphonimg{
+    position: static;
+    transform: rotate(0);
+  }
+  .theacth3{
+    width: auto;
+  }
+}
